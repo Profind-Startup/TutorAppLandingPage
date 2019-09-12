@@ -1,2 +1,1 @@
-# LandingPageOfertonGo
 # TutorAppLandingPage
