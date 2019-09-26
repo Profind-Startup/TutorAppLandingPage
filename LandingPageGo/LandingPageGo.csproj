@@ -46,6 +46,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -140,9 +143,6 @@
     <Reference Include="Microsoft.AI.Web">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -220,6 +220,8 @@
     <Content Include="Content\fonts\font-awesome.min.css" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\home-bg.jpg" />
+    <Content Include="Content\img\app-store.png" />
+    <Content Include="Content\img\google-play.png" />
     <Content Include="Content\js\actions.js" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
@@ -232,6 +234,16 @@
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\plugins.js" />
     <Content Include="Content\js\wizard.js" />
+    <Content Include="Content\student\student1.jpg" />
+    <Content Include="Content\student\student2.jpg" />
+    <Content Include="Content\student\student3.jpg" />
+    <Content Include="Content\student\student33.jpg" />
+    <Content Include="Content\student\student4.jpg" />
+    <Content Include="Content\tutor\tutor1.jpg" />
+    <Content Include="Content\tutor\tutor2.jpg" />
+    <Content Include="Content\tutor\tutor22.jpg" />
+    <Content Include="Content\tutor\tutor3.jpg" />
+    <Content Include="Content\tutor\tutor4.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -328,7 +340,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\img\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
